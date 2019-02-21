@@ -1,4 +1,4 @@
-Orion Context Broker Integrator
+Orion Context Broker Integration
 ========================
 
 **Description:** This is a simple Python project to facilitate the use of the FIWARE [Orion Context Broker](https://fiware-orion.readthedocs.io/en/latest/). The following steps to run FIWARE properly are based on the [FIWARE step-by-step documentation](https://github.com/Fiware/tutorials.Step-by-Step/blob/master/docs/getting-started.md).
