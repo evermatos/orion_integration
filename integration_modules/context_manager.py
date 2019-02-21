@@ -1,7 +1,7 @@
 # Get the entitites with context information at the Orion Context Broker
 
 import requests
-from modules_integrator.setup_address import set_address
+from integration_modules.setup_address import set_address
 
 address = set_address()
 

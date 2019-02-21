@@ -1,7 +1,7 @@
 # Works alongisde with the context_manager to provide services based on the context present at the broker # noqa
 
 import requests
-from modules_integrator.setup_address import set_address
+from integration_modules.setup_address import set_address
 
 
 address = set_address()

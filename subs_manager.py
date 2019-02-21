@@ -1,8 +1,8 @@
 # Receives the subscription intention (from users) and creates the process
 
-from modules_integrator.services_manager import get_entities_id_from_type
-from modules_integrator.services_manager import get_entities_info_from_id
-from modules_integrator.services_manager import get_entities_types
+from integration_modules.services_manager import get_entities_id_from_type
+from integration_modules.services_manager import get_entities_info_from_id
+from integration_modules.services_manager import get_entities_types
 
 
 list_of_types = get_entities_types()

@@ -1,12 +1,12 @@
 import sys
 import json
-from modules_integrator.insert_context import test_orion, put_entity
-from modules_integrator.insert_context import update_specific_atribute
-from modules_integrator.consult_query import get_entities, get_entities_filter
-from modules_integrator.consult_subs import new_subscription
-from modules_integrator.setup_address import set_address
-from modules_integrator.services_manager import get_entities_id_from_type
-from modules_integrator.services_manager import get_entities_info_from_id
+from integration_modules.insert_context import test_orion, put_entity
+from integration_modules.insert_context import update_specific_atribute
+from integration_modules.consult_query import get_entities, get_entities_filter
+from integration_modules.consult_subs import new_subscription
+from integration_modules.setup_address import set_address
+from integration_modules.services_manager import get_entities_id_from_type
+from integration_modules.services_manager import get_entities_info_from_id
 
 
 print(sys.executable)
