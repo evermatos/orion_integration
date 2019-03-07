@@ -38,18 +38,16 @@ docker run -d --name fiware-orion -h orion --network=fiware_default \
 > docker network rm fiware_default
 > ```
 
-### Starting accumulator server
+### Starting server
 
 The subscriptions and notifications require some process to play the role of the consumer
 application able to receive notifications.
 It is a very simple "dummy" application that simply listens to a given URL
-(the example below uses localhost:1028/accumulate, but a different
+(the example below uses localhost:1028, but a different
 host and/or port can be specified) and echoes whatever it receives in the
 terminal window where it is executed. Run it using the following
 command:
 
 ```
-# cd /dir/where/accumulator-server/is/downloaded
-# chmod a+x accumulator-server.py
-# ./accumulator-server.py --port 1028 --url /accumulate --host ::1 --pretty-print -v
+./dummy-web-server.py 1028
 ```
