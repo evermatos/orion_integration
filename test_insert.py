@@ -7,7 +7,7 @@ print(sys.executable)
 print(sys.version)
 
 insert_entity = """{
-                  "id": "T3",
+                  "id": "T1",
                   "type": "Termometer",
                   "temperature": {
                     "value": 24,

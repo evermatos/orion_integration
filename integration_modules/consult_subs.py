@@ -12,6 +12,6 @@ def new_subscription(detailed_subs):
     response = requests.post(url, json=detailed_subs)
 
     if (response.status_code == 201):
-        return 'Subscription done'
+        return 'Subscription done. Subs ID: '+response.headers['Location']
     else:
         return 'Subscription failed'
